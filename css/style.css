@@ -1,6 +1,39 @@
 body {
   position: relative;
 }
+
+.typing {
+  display: inline-flex;
+  width: 22ch;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.fs {
+  padding: 5rem;
+  background: #fff;
+}
+
+.role {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #4a4a4a;
+}
+
 .light-blue {
   background: #6ba7e2;
 }
