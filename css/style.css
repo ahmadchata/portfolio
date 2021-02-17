@@ -24,7 +24,7 @@ body {
 }
 
 .fs {
-  padding: 5rem;
+  padding: 4rem;
   background: #fff;
 }
 
@@ -33,9 +33,13 @@ body {
 }
 
 .role {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bolder;
   line-height: 3rem;
+}
+
+.gold {
+  background: #f4b93d;
 }
 
 .light-blue {
@@ -43,4 +47,10 @@ body {
 }
 .light-green {
   background: #56d2b8;
+}
+
+@media only screen and (max-width: 540px) {
+  .pd {
+  padding-top: 20rem;
+}
 }
