@@ -28,10 +28,14 @@ body {
   background: #fff;
 }
 
+.gray {
+  color: #4a4a4a;
+}
+
 .role {
   font-size: 3rem;
   font-weight: bolder;
-  color: #4a4a4a;
+  line-height: 3rem;
 }
 
 .light-blue {
