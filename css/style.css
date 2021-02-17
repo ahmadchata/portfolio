@@ -24,7 +24,9 @@ body {
 }
 
 .fs {
-  padding: 4rem;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
   background: #fff;
 }
 
@@ -32,10 +34,20 @@ body {
   color: #4a4a4a;
 }
 
+.contact-blue {
+  background: #3b80fe;
+  color: white;
+}
+
 .role {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  line-height: 3rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+}
+
+.bio {
+  color: #7e7e7e;
 }
 
 .gold {
@@ -51,6 +63,6 @@ body {
 
 @media only screen and (max-width: 540px) {
   .pd {
-  padding-top: 20rem;
-}
+    padding-top: 20rem;
+  }
 }
