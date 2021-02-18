@@ -6,7 +6,7 @@ body {
   background: #FDE57D;
 }
 
-.typing {
+/*.typing {
   display: inline-flex;
   width: 22ch;
   animation: typing 3s steps(22), blink .5s step-end infinite alternate;
@@ -25,11 +25,11 @@ body {
   50% {
     border-color: transparent
   }
-}
+}*/
 
 .slide {
-    -webkit-animation: slide 2s ease-in-out infinite;
-    animation: slide 2s ease-in-out infinite;
+  -webkit-animation: slide 2s ease-in-out infinite;
+  animation: slide 2s ease-in-out infinite;
 }
 
 @keyframes slide {
@@ -39,6 +39,10 @@ body {
   0%, 100% {
     transform: translate(-10px);
   }
+}
+
+.animal {
+  font-size: 5rem;
 }
 
 .fs {
