@@ -83,6 +83,34 @@ body {
   font-weight: 200;
 }
 
+.projects {
+  height: 30%;
+  width: 40%;
+  justify-content: center;
+}
+
+.pd {
+  text-align: center;
+}
+
+.socials a {
+  color: #a7a7a7;
+  font-size: 1.6rem;
+  margin-right: 20px;
+}
+
+.twitter:hover {
+  color: #209ee2;
+}
+
+.linkedin:hover {
+  color: #1966c3;
+}
+
+.github:hover{
+  color: black;
+}
+
 .gold {
   background: #f4b93d;
 }
@@ -99,7 +127,7 @@ body {
 }
 
 .light-blue {
-  background: #6ba7e2;
+  background: #209ee2;
 }
 .light-green {
   background: #56d2b8;
