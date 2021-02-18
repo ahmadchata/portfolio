@@ -27,8 +27,22 @@ body {
   }
 }
 
+.slide {
+    -webkit-animation: slide 2s ease-in-out infinite;
+    animation: slide 2s ease-in-out infinite;
+}
+
+@keyframes slide {
+  50% {
+    transform: translate(10px);
+  }
+  0%, 100% {
+    transform: translate(-10px);
+  }
+}
+
 .fs {
-  padding: 2.5rem;
+  padding: 14rem 5rem;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -70,6 +84,10 @@ body {
 @media only screen and (max-width: 768px) {
   .pd {
     padding-top: 15rem;
+  }
+
+  .slide {
+    display: none;
   }
 
   .fs {
