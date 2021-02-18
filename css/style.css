@@ -31,7 +31,6 @@ body {
   padding: 2.5rem;
   justify-content: center;
   align-items: center;
-  text-align: center;
   overflow: hidden;
 }
 
@@ -53,7 +52,8 @@ body {
 
 .bio {
   color: #7e7e7e;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 .gold {
@@ -74,16 +74,14 @@ body {
 
   .fs {
     padding: 1rem;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     height: 260px;
     overflow: hidden;
     background: #fde57d;
+    width: 100%;
   }
 
   .role {
-    text-transform: uppercase;
     font-size: 1rem;
     font-weight: 800;
     line-height: 1rem;
