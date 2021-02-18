@@ -66,8 +66,15 @@ body {
 .role {
   text-transform: uppercase;
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 2.5rem;
+}
+.link {
+  color: #3b80fe;
+}
+
+.name {
+  font-weight: 800;
 }
 
 .bio {
@@ -78,6 +85,17 @@ body {
 
 .gold {
   background: #f4b93d;
+}
+
+.articles {
+  background: #f4f3f3;
+  padding: 5rem;
+}
+
+.date {
+  color: #b5b5b5;
+  font-weight: 400;
+  font-size: 0.8rem;
 }
 
 .light-blue {
