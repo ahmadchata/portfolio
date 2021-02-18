@@ -84,9 +84,7 @@ body {
 }
 
 .projects {
-  height: 30%;
-  width: 40%;
-  justify-content: center;
+  width: 45%;
 }
 
 .pd {
@@ -118,6 +116,7 @@ body {
 .articles {
   background: #f4f3f3;
   padding: 5rem;
+  text-align: left;
 }
 
 .date {
@@ -159,5 +158,10 @@ body {
 
   .bio {
     font-size: 0.8rem;
+  }
+
+  .articles {
+    padding: 3rem;
+    text-align: left;
   }
 }
