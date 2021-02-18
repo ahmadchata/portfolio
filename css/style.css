@@ -59,6 +59,8 @@ body {
 .contact-blue {
   background: #3b80fe;
   color: white;
+  font-size: 0.9rem;
+  font-weight: 200;
 }
 
 .role {
