@@ -2,6 +2,10 @@ body {
   position: relative;
 }
 
+.banner {
+  background: #FDE57D;
+}
+
 .typing {
   display: inline-flex;
   width: 22ch;
@@ -24,10 +28,11 @@ body {
 }
 
 .fs {
-  padding: 3rem;
+  padding: 2.5rem;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  text-align: center;
+  overflow: hidden;
 }
 
 .gray {
@@ -48,6 +53,7 @@ body {
 
 .bio {
   color: #7e7e7e;
+  font-size: 1.3rem;
 }
 
 .gold {
@@ -61,8 +67,29 @@ body {
   background: #56d2b8;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 768px) {
   .pd {
-    padding-top: 20rem;
+    padding-top: 15rem;
+  }
+
+  .fs {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 260px;
+    overflow: hidden;
+    background: #fde57d;
+  }
+
+  .role {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1rem;
+  }
+
+  .bio {
+    font-size: 0.8rem;
   }
 }
