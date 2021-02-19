@@ -47,11 +47,11 @@ body {
 }
 
 .fs {
-  padding: 14rem 5rem;
+  padding: 12rem 5rem;
   justify-content: center;
   align-items: center;
-  overflow-y: hidden;
-  height: 100vh;
+  overflow: hidden;
+  z-index: 1
 }
 
 .gray {
@@ -83,6 +83,11 @@ body {
   color: #7e7e7e;
   font-size: 1.2rem;
   font-weight: 200;
+}
+
+footer {
+  position: sticky;
+  z-index: 2;
 }
 
 .projects {
