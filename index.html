@@ -5,10 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Ahmad Chata</title>
 </head>
 <body>
+  <!-- Loading screen -->
+<div id="loader-wrapper">
+  <span class="msg text-white">Hold on</span>
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<div id="content">
   <main>
     <div class="row g-0">
       <div class="col-lg-5 col-2 fixed-top fs">
@@ -48,5 +57,10 @@
     <div class="banner"><img src="assets/me.png" class="img-fluid projects" alt="project one"></div>
     <div><span class="text-light">Ahmad Chata</span></div>
   </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
 </body>
 </html>
