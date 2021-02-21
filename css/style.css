@@ -188,7 +188,6 @@ body {
 
 .animal {
   font-size: 5rem;
-  text-align: center;
 }
 
 .fs {
@@ -230,9 +229,14 @@ body {
   font-weight: 200;
 }
 
-footer {
+aside {
+  padding: 5rem;
   position: sticky;
   z-index: 2;
+}
+
+footer {
+  text-align: center;
 }
 
 .projects {
@@ -242,6 +246,26 @@ footer {
 .linter_img {
   padding-top: 5rem;
   width: 70%;
+}
+
+.load-text {
+  padding-top: 20rem;
+  text-align: left;
+  position: absolute;
+  left: -200px;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.about-img {
+  padding-top: 1rem;
+  width: 30%;
+}
+
+.about-text {
+  text-align: left;
+  padding: 1rem;
 }
 
 .dev-img {
