@@ -236,6 +236,12 @@ body {
   font-weight: 200;
 }
 
+.description {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 aside {
   padding: 5rem;
   position: sticky;
@@ -293,6 +299,12 @@ footer {
   color: #a7a7a7;
   font-size: 1.6rem;
   margin-right: 20px;
+}
+
+.socials-footer a {
+  color: #a7a7a7;
+  font-size: 1rem;
+  margin-right: 10px;
 }
 
 .twitter:hover {
