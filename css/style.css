@@ -303,8 +303,12 @@ footer {
   color: #1966c3;
 }
 
-.github:hover{
+.github:hover {
   color: black;
+}
+
+.live:hover {
+  color: #ee8167;
 }
 
 .dark-gray {
