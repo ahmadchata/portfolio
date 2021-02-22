@@ -271,7 +271,7 @@ body {
   width: 50%;
 }
 
-.pd {
+.side-column {
   text-align: center;
 }
 
@@ -326,7 +326,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  .pd {
+  .side-column {
     padding-top: 15rem;
   }
 
@@ -334,19 +334,13 @@ footer {
     display: none;
   }
 
-  .fs {
+  .top-column {
     padding: 1rem;
     text-align: center;
     height: 260px;
     overflow: hidden;
     background: #fde57d;
     width: 100%;
-  }
-
-  .role {
-    font-size: 1rem;
-    font-weight: 800;
-    line-height: 1rem;
   }
 
   .bio {
