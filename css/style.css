@@ -323,9 +323,11 @@ aside {
 
 footer {
   text-align: center;
+  position: sticky;
+  z-index: 2;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .load-text {
     padding-top: 15rem;
     text-align: left;
