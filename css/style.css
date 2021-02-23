@@ -326,6 +326,16 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  .load-text {
+    padding-top: 15rem;
+    text-align: left;
+    position: absolute;
+    left: -170px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
   .side-column {
     padding-top: 15rem;
   }
