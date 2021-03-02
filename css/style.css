@@ -9,10 +9,6 @@ body {
   position: relative;
 }
 
-.banner {
-  background: #fde57d;
-}
-
 /*loadder*/
 #loader-wrapper {
   position: fixed;
@@ -111,7 +107,7 @@ body {
   right: 0;
 }
 
-    /* Loaded */
+/* Loaded */
 .loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
   -ms-transform: translateX(-100%);  /* IE 9 */
@@ -184,6 +180,10 @@ body {
 /* colors */
 .gray {
   color: #4a4a4a;
+}
+
+.banner {
+  background: #fde57d;
 }
 
 .pink {
