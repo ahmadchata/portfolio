@@ -9,6 +9,12 @@ body {
   position: relative;
 }
 
+/*Dark mode*/
+.dark-mode {
+  background: black;
+  color: white;
+}
+
 /*loadder*/
 #loader-wrapper {
   position: fixed;
