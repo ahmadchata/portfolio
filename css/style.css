@@ -15,6 +15,11 @@ body {
   color: white;
 }
 
+.ow-animal:before {
+  font-size: 5rem;
+  content: "🦉";
+}
+
 /*loadder*/
 #loader-wrapper {
   position: fixed;
@@ -179,8 +184,9 @@ body {
   }
 }
 
-.animal {
+.animal:before {
   font-size: 5rem;
+  content: "🐘"
 }
 
 /* colors */
