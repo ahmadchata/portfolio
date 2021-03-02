@@ -15,7 +15,7 @@ body {
   color: white;
 }
 
-.ow-animal:before {
+.dark-animal:before {
   font-size: 5rem;
   content: "🦉";
 }

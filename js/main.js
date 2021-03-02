@@ -9,13 +9,10 @@ $(document).ready(function() {
 function darkmode() {
   const wasDarkmode = localStorage.getItem('darkmode') === 'true';
   localStorage.setItem('darkmode', !wasDarkmode);
-  const element = document.body;
-  const animal = document.querySelector('animal');
+  const element = document.body
   element.classList.toggle('dark-mode', !wasDarkmode);
-  // animal.textContent.toggle('dark-mode', !wasDarkmode);
 }
 
 function onload() {
-  document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
-  document.querySelector('animal').toggle(textContent = '🦉');
+  element.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
 }
