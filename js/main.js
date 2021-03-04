@@ -16,3 +16,5 @@ function darkmode() {
 function onload() {
   element.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
 }
+ const btn = document.querySelector('#flexSwitchCheckChecked');
+ btn.onclick = (e) => darkmode();
