@@ -354,6 +354,10 @@ footer {
     padding-top: 15rem;
   }
 
+  .name {
+    color: #4a4a4a;
+  }
+
   .slide {
     display: none;
   }
