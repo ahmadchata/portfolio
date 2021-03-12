@@ -194,6 +194,10 @@ body {
   color: #4a4a4a;
 }
 
+.dark-banner {
+  background: #ffcf00;
+}
+
 .banner {
   background: #fde57d;
 }
@@ -313,6 +317,12 @@ body {
 
 .live:hover {
   color: #ee8167;
+}
+
+.dark-article {
+  background: black;
+  padding: 5rem;
+  text-align: left;
 }
 
 .articles {

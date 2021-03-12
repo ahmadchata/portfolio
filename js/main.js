@@ -18,11 +18,21 @@ function darkAnimal() {
     } else {
       elem.className = "animal";
     }
-  }
+}
+
+function darkArticle() {
+  var elem = document.getElementById("article");
+    if (elem.className === "articles") {
+      elem.className = "dark-article";
+    } else {
+      elem.className = "articles";
+    }
+}
 
 function enableDarkMode() {
   darkAnimal();
   darkmode();
+  darkArticle();
 }
  const btn = document.querySelector('#flexSwitchCheckChecked');
  btn.addEventListener('click', enableDarkMode);
