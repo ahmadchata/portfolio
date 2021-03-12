@@ -12,7 +12,7 @@ function darkmode() {
 }
 
 function darkAnimal() {
-  var elem = document.getElementById("test");
+  var elem = document.getElementById("animal");
     if (elem.className === "animal") {
       elem.className = "dark-animal";
     } else {
@@ -20,13 +20,9 @@ function darkAnimal() {
     }
   }
 
-function enableDarkMode {
-  darkmode();
+function enableDarkMode() {
   darkAnimal();
+  darkmode();
 }
-
-// function onload() {
-//   element.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
-// }
  const btn = document.querySelector('#flexSwitchCheckChecked');
  btn.addEventListener('click', enableDarkMode);
