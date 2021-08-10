@@ -1,155 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GX4Y9BFGCY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GX4Y9BFGCY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-GX4Y9BFGCY');
-</script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="image" property="og:image" content="https://res.cloudinary.com/dkhpky7a4/image/upload/v1614174905/me_hnmwcm.png">
-  <meta name="description" property="og:description" content="Ahmad Chata's portfolio: Full Stack Developer">
-  <meta name="author" content="Ahmad Chata">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
-  <link rel="icon" type="image/png" href="assets/favicon.png">
-  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <title>Ahmad Chata</title>
-</head>
-<body>
+      gtag("config", "G-GX4Y9BFGCY");
+    </script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://res.cloudinary.com/dkhpky7a4/image/upload/v1614174905/me_hnmwcm.png"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="Ahmad Chata's portfolio: Full Stack Developer"
+    />
+    <meta name="author" content="Ahmad Chata" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ahmad Chata</title>
+  </head>
+  <body>
+    <!-- Loading screen -->
 
-  <!-- Loading screen -->
-
-<div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"><p class="load-text text-light">Hold on while I clean my space, I wasn't expecting you</p></div>
-</div>
-<div id="content">
-  <main>
-
-    <!-- intro column -->
-
-    <div class="row g-0">
-      <div class="col-md-5 col-2 fixed-top top-column">
-        <div class="form-check form-switch d-none d-md-flex mb-4">
-          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
-          <label class="form-check-label fw-lighter mx-1" for="flexSwitchCheckChecked">Dark Mode</label>
-        </div>
-        <div class="slide">
-          <h1 class="animal" id="animal"></h1>
-        </div>
-        <label class="name fs-2">Hi! I am Ahmad Chata.</label>
-        <p class="bio">A Full-Stack Developer with passion for clean code. When I am not wearing out my not so expensive keyboard, I am either sleeping or recreating ideas on pinterest.</p>
-        <div class="mb-4 socials">
-          <a class="twitter" target="_blank" href="https://www.twitter.com/ahmadchata/"><i class="fab fa-twitter"></i></a>
-          <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/ahmadchata/"><i class="fab fa-linkedin"></i></a>
-          <a class="github" target="_blank" href="https://www.github.com/ahmadchata/"><i class="fab fa-github"></i></a>
-        </div>
-        <a target="_blank" href="mailto:ahmadchata@gmail.com" class="btn btn-lg-sm p-lg-2 contact-blue">Say hi!</a>
-        <a target="_blank" href="https://drive.google.com/file/d/11VRVIWH_WyAD4G03LLzOECR7zV0fNou5/view?usp=sharing" class="btn btn-lg-sm p-lg-2 contact-blue" download="">Get my Resume</a>
-      </div>
-
-      <!-- Projects column -->
-
-      <div class="col-md offset-md-5 side-column">
-        <div class="light-blue">
-          <h3 class="description text-uppercase text-start py-5 px-4">Newsweek</h3>
-          <img src="assets/phone.png" class="img-fluid projects" alt="screenshot">
-          <p class="description px-2">Newsweek website clone. Built with HTML, CSS and Bootstrap</p>
-          <a class="github pb-3 fs-3 link-secondary" target="_blank" href="https://www.github.com/ahmadchata/newsweek">
-            <i class="fab fa-github"></i>
-          </a>
-          <a class="live pb-3 ms-4 fs-3 link-secondary" target="_blank" href="https://raw.githack.com/ahmadchata/newsweek/feature-homepage/index.html">
-            <i class="fas fa-satellite-dish"></i>
-          </a>
-        </div>
-        <div class="light-green">
-          <h3 class="description text-uppercase text-start py-5 px-4">Logxercise</h3>
-          <img src="assets/exercise.png" class="img-fluid pt-3 projects" alt="screenshot">
-          <p class="description px-2">A Web app for logging and grouping exercises. Built with Ruby on Rails, Sass and Bootstrap</p>
-          <a class="github pb-3 fs-3 link-secondary" target="_blank" href="https://www.github.com/ahmadchata/logxercise">
-            <i class="fab fa-github"></i>
-          </a>
-          <a class="live pb-3 ms-4 fs-3 link-secondary" target="_blank" href="https://young-mesa-60051.herokuapp.com/">
-            <i class="fas fa-satellite-dish"></i>
-          </a>
-        </div>
-        <div class="gold">
-          <h3 class="description text-uppercase text-start py-5 px-4">Css Linter</h3>
-          <img src="assets/linter.png" class="img-fluid linter_img" alt="screenshot">
-          <p class="description px-2">A Terminal app that check for errors in CSS files. Built with Ruby</p>
-          <a class="github pb-3 fs-3 link-secondary" target="_blank" href="https://www.github.com/ahmadchata/Linter_CSS">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-        <div class="dark-gray">
-          <h3 class="description text-uppercase text-start py-5 px-4">DEV Directory</h3>
-          <img src="assets/devcenter.png" class="img-fluid dev-img" alt="screenshot">
-          <p class="description px-2">A front-end website for finding developers. Built with HTML, CSS and Bootstrap</p>
-          <a class="github pb-3 fs-3 link-secondary" target="_blank" href="https://www.github.com/ahmadchata/dev-directory">
-            <i class="fab fa-github"></i>
-          </a>
-          <a class="live pb-3 ms-4 fs-3 link-secondary" target="_blank" href="https://raw.githack.com/ahmadchata/dev-directory/homepage/index.html">
-            <i class="fas fa-satellite-dish"></i>
-          </a>
-        </div>
-        <div class="pink">
-          <h3 class="description text-uppercase text-start py-5 px-4">Social Media</h3>
-          <img src="assets/social.png" class="img-fluid linter-img" alt="screenshot">
-          <p class="description px-2">A simple social media web app for posting your thoughts and adding friends. Built with Ruby on Rails, Sass and Bootstrap</p><a class="github pb-3 fs-3 link-secondary" target="_blank" href="https://www.github.com/ahmadchata/social-media">
-            <i class="fab fa-github"></i>
-          </a>
-          <a class="live pb-3 ms-4 fs-3 link-secondary" target="_blank" href="https://salty-stream-05643.herokuapp.com/">
-            <i class="fas fa-satellite-dish"></i>
-          </a>
-        </div>
-
-        <!-- Articles section -->
-
-        <section class="articles" id="article">
-          <h4 class="name gray">ARTICLES.</h4>
-          <div class="mt-4">
-            <span class="date text-uppercase">June 30, 2020</span>
-            <p class="mt-0"><a target="_blank" href="https://medium.com/@ahmadchata/align-and-justify-what-you-need-to-know-748f7f2629c8" class="text-decoration-none fs-6 link">Align and Justify, What you need to know</a></p>
-            <span class="date text-uppercase">Nov 20, 2020</span>
-            <p><a target="_blank" href="https://www.microverse.org/blog/how-to-get-better-at-solving-coding-challenges" class="text-decoration-none fs-6 link">How to Get Better At Solving Coding Challenges</a></p>
-            <span class="date text-uppercase">Dec 21, 2020</span>
-            <p><a target="_blank" href="https://www.microverse.org/blog/how-to-write-a-sql-query-in-ruby-on-rails" class="text-decoration-none fs-6 link">How to Write a SQL Query in Ruby on Rails</a></p>
-        </div>
-        </section>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right">
+        <p class="load-text text-light">
+          Hold on while I clean my space, I wasn't expecting you
+        </p>
       </div>
     </div>
-  </main>
+    <div id="content">
+      <main>
+        <!-- intro column -->
 
-  <!-- About section -->
+        <div class="row g-0">
+          <div class="col-md-5 col-2 fixed-top top-column">
+            <div class="form-check form-switch d-none d-md-flex mb-4">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="flexSwitchCheckChecked"
+              />
+              <label
+                class="form-check-label fw-lighter mx-1"
+                for="flexSwitchCheckChecked"
+                >Dark Mode</label
+              >
+            </div>
+            <div class="slide">
+              <h1 class="animal" id="animal"></h1>
+            </div>
+            <label class="name fs-2">Hi! I am Ahmad Chata.</label>
+            <p class="bio">
+              A Full-Stack Developer with passion for clean code. When I am not
+              wearing out my not so expensive keyboard, I am either sleeping or
+              recreating ideas on pinterest.
+            </p>
+            <div class="mb-4 socials">
+              <a
+                class="twitter"
+                target="_blank"
+                href="https://www.twitter.com/ahmadchata/"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="linkedin"
+                target="_blank"
+                href="https://www.linkedin.com/in/ahmadchata/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                class="github"
+                target="_blank"
+                href="https://www.github.com/ahmadchata/"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <a
+              target="_blank"
+              href="mailto:ahmadchata@gmail.com"
+              class="btn btn-lg-sm p-lg-2 contact-blue"
+              >Say hi!</a
+            >
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1THY8TGelYrP1e44zleVzrktaafs7VQst/view?usp=sharing"
+              class="btn btn-lg-sm p-lg-2 contact-blue"
+              download=""
+              >Get my Resume</a
+            >
+          </div>
 
-  <aside class="row g-0 banner">
-    <h3 class="name gray p-2">ABOUT ME</h3>
-    <div class="banner col-lg-4"><img src="assets/me.png" class="img-fluid about-img" alt="a picture of me"></div>
-    <div class="col-lg-8 about-text"><p class="bio">Long before Dinosaurs existed, I was already a Full stack developer and I love working with Ruby especially when I put it on Rails, I enjoy solving complex problems except when it's too complex then I enjoy it even more. I write in JavaScript and my favorite front-end library is React, I test with Jest and RSpec. I like MySQL and PostgreSQL. I love Elephants because they have exceptional memories, are majestic yet powerful and intelligent.  <br><br> I occassionally write to share my knowledge on blogs - well, that is just a way of calming myself when I feel like smashing my screen because something isn't working as intended. Why not send me a <a href="mailto:ahmadchata@gmail.com">message</a> so I can tell you more.</p></div>
-  </aside>
+          <!-- Projects column -->
 
-  <!-- footer -->
+          <div class="col-md offset-md-5 side-column">
+            <div class="light-blue">
+              <h3 class="description text-uppercase text-start py-5 px-4">
+                Newsweek
+              </h3>
+              <img
+                src="assets/phone.png"
+                class="img-fluid projects"
+                alt="screenshot"
+              />
+              <p class="description px-2">
+                Newsweek website clone. Built with HTML, CSS and Bootstrap
+              </p>
+              <a
+                class="github pb-3 fs-3 link-secondary"
+                target="_blank"
+                href="https://www.github.com/ahmadchata/newsweek"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="live pb-3 ms-4 fs-3 link-secondary"
+                target="_blank"
+                href="https://raw.githack.com/ahmadchata/newsweek/feature-homepage/index.html"
+              >
+                <i class="fas fa-satellite-dish"></i>
+              </a>
+            </div>
+            <div class="light-green">
+              <h3 class="description text-uppercase text-start py-5 px-4">
+                Logxercise
+              </h3>
+              <img
+                src="assets/exercise.png"
+                class="img-fluid pt-3 projects"
+                alt="screenshot"
+              />
+              <p class="description px-2">
+                A Web app for logging and grouping exercises. Built with Ruby on
+                Rails, Sass and Bootstrap
+              </p>
+              <a
+                class="github pb-3 fs-3 link-secondary"
+                target="_blank"
+                href="https://www.github.com/ahmadchata/logxercise"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="live pb-3 ms-4 fs-3 link-secondary"
+                target="_blank"
+                href="https://young-mesa-60051.herokuapp.com/"
+              >
+                <i class="fas fa-satellite-dish"></i>
+              </a>
+            </div>
+            <div class="gold">
+              <h3 class="description text-uppercase text-start py-5 px-4">
+                Css Linter
+              </h3>
+              <img
+                src="assets/linter.png"
+                class="img-fluid linter_img"
+                alt="screenshot"
+              />
+              <p class="description px-2">
+                A Terminal app that check for errors in CSS files. Built with
+                Ruby
+              </p>
+              <a
+                class="github pb-3 fs-3 link-secondary"
+                target="_blank"
+                href="https://www.github.com/ahmadchata/Linter_CSS"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="dark-gray">
+              <h3 class="description text-uppercase text-start py-5 px-4">
+                DEV Directory
+              </h3>
+              <img
+                src="assets/devcenter.png"
+                class="img-fluid dev-img"
+                alt="screenshot"
+              />
+              <p class="description px-2">
+                A front-end website for finding developers. Built with HTML, CSS
+                and Bootstrap
+              </p>
+              <a
+                class="github pb-3 fs-3 link-secondary"
+                target="_blank"
+                href="https://www.github.com/ahmadchata/dev-directory"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="live pb-3 ms-4 fs-3 link-secondary"
+                target="_blank"
+                href="https://raw.githack.com/ahmadchata/dev-directory/homepage/index.html"
+              >
+                <i class="fas fa-satellite-dish"></i>
+              </a>
+            </div>
+            <div class="pink">
+              <h3 class="description text-uppercase text-start py-5 px-4">
+                Social Media
+              </h3>
+              <img
+                src="assets/social.png"
+                class="img-fluid linter-img"
+                alt="screenshot"
+              />
+              <p class="description px-2">
+                A simple social media web app for posting your thoughts and
+                adding friends. Built with Ruby on Rails, Sass and Bootstrap
+              </p>
+              <a
+                class="github pb-3 fs-3 link-secondary"
+                target="_blank"
+                href="https://www.github.com/ahmadchata/social-media"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="live pb-3 ms-4 fs-3 link-secondary"
+                target="_blank"
+                href="https://salty-stream-05643.herokuapp.com/"
+              >
+                <i class="fas fa-satellite-dish"></i>
+              </a>
+            </div>
 
-  <footer class="bg-dark">
-     <div class="mb-1 socials-footer bg-dark">
-          <a class="twitter" target="_blank" href="https://www.twitter.com/ahmadchata/"><i class="fab fa-twitter"></i></a>
-          <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/ahmadchata/"><i class="fab fa-linkedin"></i></a>
-          <a class="github" target="_blank" href="https://www.github.com/ahmadchata/"><i class="fab fa-github"></i></a>
+            <!-- Articles section -->
+
+            <section class="articles" id="article">
+              <h4 class="name gray">ARTICLES.</h4>
+              <div class="mt-4">
+                <span class="date text-uppercase">June 30, 2020</span>
+                <p class="mt-0">
+                  <a
+                    target="_blank"
+                    href="https://medium.com/@ahmadchata/align-and-justify-what-you-need-to-know-748f7f2629c8"
+                    class="text-decoration-none fs-6 link"
+                    >Align and Justify, What you need to know</a
+                  >
+                </p>
+                <span class="date text-uppercase">Nov 20, 2020</span>
+                <p>
+                  <a
+                    target="_blank"
+                    href="https://www.microverse.org/blog/how-to-get-better-at-solving-coding-challenges"
+                    class="text-decoration-none fs-6 link"
+                    >How to Get Better At Solving Coding Challenges</a
+                  >
+                </p>
+                <span class="date text-uppercase">Dec 21, 2020</span>
+                <p>
+                  <a
+                    target="_blank"
+                    href="https://www.microverse.org/blog/how-to-write-a-sql-query-in-ruby-on-rails"
+                    class="text-decoration-none fs-6 link"
+                    >How to Write a SQL Query in Ruby on Rails</a
+                  >
+                </p>
+              </div>
+            </section>
+          </div>
         </div>
-    <div><span class="text-light footer-text">© 2021. Made with ❤️ by Ahmad Chata. Web concept by Charlie Waite</span></div>
-  </footer>
-  </div>
+      </main>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="js/main.js"></script>
-</body>
+      <!-- About section -->
+
+      <aside class="row g-0 banner">
+        <h3 class="name gray p-2">ABOUT ME</h3>
+        <div class="banner col-lg-4">
+          <img
+            src="assets/me.png"
+            class="img-fluid about-img"
+            alt="a picture of me"
+          />
+        </div>
+        <div class="col-lg-8 about-text">
+          <p class="bio">
+            Long before Dinosaurs existed, I was already a Full stack developer
+            and I love working with Ruby especially when I put it on Rails, I
+            enjoy solving complex problems except when it's too complex then I
+            enjoy it even more. I write in JavaScript and my favorite front-end
+            library is React, I test with Jest and RSpec. I like MySQL and
+            PostgreSQL. I love Elephants because they have exceptional memories,
+            are majestic yet powerful and intelligent. <br /><br />
+            I occassionally write to share my knowledge on blogs - well, that is
+            just a way of calming myself when I feel like smashing my screen
+            because something isn't working as intended. Why not send me a
+            <a href="mailto:ahmadchata@gmail.com">message</a> so I can tell you
+            more.
+          </p>
+        </div>
+      </aside>
+
+      <!-- footer -->
+
+      <footer class="bg-dark">
+        <div class="mb-1 socials-footer bg-dark">
+          <a
+            class="twitter"
+            target="_blank"
+            href="https://www.twitter.com/ahmadchata/"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="linkedin"
+            target="_blank"
+            href="https://www.linkedin.com/in/ahmadchata/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            class="github"
+            target="_blank"
+            href="https://www.github.com/ahmadchata/"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <div>
+          <span class="text-light footer-text"
+            >© 2021. Made with ❤️ by Ahmad Chata. Web concept by Charlie
+            Waite</span
+          >
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.9.1.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
