@@ -1,0 +1,3 @@
+# robots.txt file for https://ahmadchata.me
+User-agent: *
+Allow: /
